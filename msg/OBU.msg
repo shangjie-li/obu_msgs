@@ -5,11 +5,15 @@ int32 light_state
 int32 light_remain_time
 
 # Add ego vehicle information here.
-geometry_msgs/Pose pose_ego
+float64 obu_jd
+float64 obu_wd
+float64 obu_angle
 
 # Add obstacle information here.
-geometry_msgs/Pose pose
-geometry_msgs/Vector3 scale
+float64 event_jd
+float64 event_wd
+float64 event_length
+float64 event_radius
 
 # Add park information here.
 int32 park_id
