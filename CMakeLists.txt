@@ -11,7 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 add_message_files(
   FILES
-  OBU.msg
+  OBU_fusion.msg
 )
 
 generate_messages(
