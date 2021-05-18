@@ -35,4 +35,4 @@ float64 emergency_car_jd
 float64 emergency_car_wd
 float64 emergency_car_x
 float64 emergency_car_y
-bool emergency_car_is_near
+int32 emergency_car_is_near
