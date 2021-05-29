@@ -36,3 +36,9 @@ float64 emergency_car_wd
 float64 emergency_car_x
 float64 emergency_car_y
 int32 emergency_car_is_near
+
+# Add terminal point here.
+float64 terminal_jd
+float64 terminal_wd
+float64 terminal_x
+float64 terminal_y
